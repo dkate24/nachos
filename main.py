@@ -696,7 +696,6 @@ class Gogo:
                     search_results2[f'Search Results {"D" if dub else "S"}ubbed'])
             else:
                 search_results = search_results2
-                      
         for result in search_results[f'Search Results {"D" if dub else "S"}ubbed']:
             result: Any = result
             print(result)
